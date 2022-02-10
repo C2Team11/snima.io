@@ -62,3 +62,36 @@
 	 padding: 20px;
 	 }
    }
+   @media screen and (max-width: 600px) {
+	header {
+	  background-image: url(./img/scott-web-600-600.jpg);
+	  background-size: cover;
+	  background-repeat: no-repeat;
+	  min-height: 600px;
+	  border-bottom: 2rem solid hsl(20deg, 50%, 70%);
+	  justify-content: flex-start;
+	  align-items: flex-end;
+	}
+	h1 {
+	  font-size: 4rem;
+	}
+	img {
+	  width: 100%;
+	}
+  }
+  @media screen and (min-width: 601px) and (max-width: 1200px) {
+	img {
+	  width: 100%;
+	}
+  }
+  @media screen and (min-width: 1201px) {
+	img {
+	  width: 60%;
+	}
+   }
+ 
+  @media screen and (max-width: 550px) {
+	h1 {
+	  font-size: 2.4rem;
+	}
+  }
